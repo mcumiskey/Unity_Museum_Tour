@@ -7,10 +7,13 @@ public class PlayerMovement : MonoBehaviour {
     private float translation;
     private float straffe;
 
+    CharacterController controller;
+
     // Use this for initialization
     void Start () {
         // turn off the cursor
-        Cursor.lockState = CursorLockMode.Locked;		
+        Cursor.lockState = CursorLockMode.Locked;	
+        controller = GetComponent<CharacterController>();
 	}
 	
 	// Update is called once per frame
