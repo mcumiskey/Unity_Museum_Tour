@@ -73,8 +73,14 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
@@ -84,12 +90,6 @@
  </Reference>
  <Reference Include="Unity.ugui.Editor">
  <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.ugui.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Users/miles/Downloads/02 Misc/unity/2019.3.0a5/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -616,6 +616,12 @@
  <Reference Include="mscorlib">
  <HintPath>/Users/miles/Downloads/02 Misc/unity/2019.3.0a5/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{45BE3C49-B49E-0BC7-1816-209A3EA5165E}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
