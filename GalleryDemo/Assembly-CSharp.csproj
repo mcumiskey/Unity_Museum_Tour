@@ -53,8 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\MouseLook.cs" />
-     <Compile Include="Assets\scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\SelectionControl.cs" />
+     <Compile Include="Assets\Scripts\milesMouseLook.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/miles/Documents/GitHub/Unity_Museum_Tour/GalleryDemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
