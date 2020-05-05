@@ -22,7 +22,7 @@ public class SelectionControl : MonoBehaviour {
         if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity)){
             GameObject selection = hit.transform.gameObject;
             Debug.Log("hit " + selection.tag);
-            if(selection.CompareTag("art")){
+            if(selection.CompareTag("Art")){
                 textGUI.SetActive(true);
             } else {
                 textGUI.SetActive(false);
